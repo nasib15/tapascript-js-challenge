@@ -4,11 +4,9 @@
 
 const number = 11;
 
-if (number % 2 === 0) {
-  console.log(number + " is even");
-} else {
-  console.log(number + " is odd");
-}
+number % 2 === 0
+  ? console.log(number + " is even")
+  : console.log(number + " is odd");
 
 /**
  * Task 2: Driving license checking
@@ -16,11 +14,9 @@ if (number % 2 === 0) {
 
 const age = 20;
 
-if (age >= 18) {
-  console.log("You are eligible for Driving license");
-} else {
-  console.log("You are not eligible for Driving license");
-}
+age >= 18
+  ? console.log("You are eligible for Driving license")
+  : console.log("You are not eligible for Driving license");
 
 /**
  * Task 3: Calculate CTC with a Bonus
@@ -40,11 +36,9 @@ console.log("Salary per annum: " + salaryPerAnum);
 
 const trafficLight = "green";
 
-if (trafficLight.toLowerCase() === "red") {
-  console.log("You should stop");
-} else {
-  console.log("You should go");
-}
+trafficLight.toLowerCase() === "red"
+  ? console.log("You should stop")
+  : console.log("You should go");
 
 /**
  * Task 5: Electricity Bill Calculation
@@ -83,20 +77,14 @@ const year = 1900;
  */
 
 const p = 11;
-const q = 7;
+const q = 11;
 const r = 12;
 
-if (p >= q && p >= r) {
-  console.log(p + " is the max among the 3 numbers");
-} else if (q >= p && q >= r) {
-  console.log(q + " is the max among the 3 numbers");
-} else if (p === q && q === r) {
-  console.log(
-    "All the numbers are same. So," + p + " is the max among the 3 numbers"
-  );
-} else {
-  console.log(r + " is the max among the 3 numbers");
-}
+p >= q && p >= r
+  ? console.log(p + " is the max among the 3 numbers")
+  : q >= p && q >= r
+  ? console.log(q + " is the max among the 3 numbers")
+  : console.log(r + " is the max among the 3 numbers");
 
 /**
  * Task 8: Bitwise doubling
