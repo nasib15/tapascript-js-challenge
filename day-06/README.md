@@ -47,7 +47,7 @@ Write a function countVowels(str) that counts the number of vowels (a, e, i, o, 
 
 Write a function capitalizeWords(sentence) that takes a sentence and capitalizes the first letter of each word. You can use the toUpperCase() method of string to convert the lowercase to uppercase.
 
-## 7. Use an IIFE to Print “Hello, JavaScript!”
+## 7. Use an IIFE to Print "Hello, JavaScript!"
 
 Write an IIFE that prints "Hello, JavaScript!" to the console. Here the Second word must be supplied using paramneter and argument.
 
@@ -77,3 +77,7 @@ f2();
 f3();
 f1();
 ```
+
+## Call Stack Execution Diagrams for Tasks 9 & 10
+
+![Call Stack Execution Diagrams](task9_task10.png)
